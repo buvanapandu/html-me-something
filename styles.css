@@ -18,6 +18,7 @@ footer {
     text-align: center;
 }
 h3 ul li {
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -36,7 +37,18 @@ h1 {
 	overflow: hidden;
 }
 #my-id {
-    background-color: pink;
     font-family: cursive;
-}    
+} 
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+}   
+body h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+.param {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
  
