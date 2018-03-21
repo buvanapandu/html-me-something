@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head><title>My First Website</title></head>
+    <head>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <title>My First Website</title></head>
 <body id="WEBPAGE">
     <header role="banner">
     <h2>Welcome to my own webpage</h2>
@@ -11,16 +13,14 @@
     </article>
     <h3>Profession</h3>
     <p>Worked as a XML Editor, Financial Analyst and finally after I took a break would like to prove myself on something which i wanted to be then I committed myself to learn Coding </p>
-    <div class ="Summary" id="summary-about" role="article">
     <h3>Family Life</h3>
     <p>Let&#8217;s go to my family life, me and my husband and my little princess </p>
-    </div>
-    <div class="Hobbies" id="summ-hobby" role="article">
+    
     <h3>Personal Interest</h3>    
-    <p>My Hobbies are Painting, Baking, Listening music, Dancing,.. </p>
-    </div>
-    <h3>Favorite Places</h3>
-    <p>Visited countries USA, Singapore, Malaysia, Dubai &amp; Germany. I like to travel Venice(Italy), Switzerland (Europe), Santorini(Greece).</p>
+    <p id="paraform">My Hobbies are Painting, Baking, Listening music, Dancing,.. </p>
+    
+    <h3><em>Favorite Places</em></h3>
+    <p id="my-id">Visited countries USA, Singapore, Malaysia, Dubai &amp; Germany. I like to travel Venice(Italy), Switzerland (Europe), Santorini(Greece).</p>
     <ul>
     <li><a href="#venice">Place to visit in Venice, Italy</a>
     </li>
@@ -34,21 +34,22 @@
             <section>
                 <a name="venice"></a>
                 <h2>Place to visit in Venice, Italy</h2>
-                <p>Venice is a city in northeastern Italy and the capital of the Veneto region. It is situated across a group of 118 small islands that are separated by canals and linked by bridges, of which there are 400. The islands are located in the shallow Venetian Lagoon, an enclosed bay that lies between the mouths of the Po and the Piave Rivers. Parts of Venice are renowned for the beauty of their settings, their architecture, and artwork. The lagoon and a part of the city are listed as a World Heritage Site</p>
+                <div><p>Venice is a city in northeastern Italy and the capital of the Veneto region. It is situated across a group of 118 small islands that are separated by canals and linked by bridges, of which there are 400. The islands are located in the shallow Venetian Lagoon, an enclosed bay that lies between the mouths of the Po and the Piave Rivers. Parts of Venice are renowned for the beauty of their settings, their architecture, and artwork. The lagoon and a part of the city are listed as a World Heritage Site</p>
+                </div>
                 <figure>
-                <img src="https://thumb7.shutterstock.com/display_pic_with_logo/131785/403253374/stock-photo-view-of-the-rio-marin-canal-with-boats-and-gondolas-from-the-ponte-de-la-bergami-in-venice-italy-403253374.jpg" alt="Venice Italy">
+                <img src="https://thumb7.shutterstock.com/display_pic_with_logo/131785/403253374/stock-photo-view-of-the-rio-marin-canal-with-boats-and-gondolas-from-the-ponte-de-la-bergami-in-venice-italy-403253374.jpg" alt="Venice Italy" width="600px" height="500px"/>
                 </figure>
                 <a name="swiss"></a>
                 <h2>Places to visit in Switzerland, Europe</h2>
                 <p>Switzerland is a federal republic in Europe. It consists of 26 cantons, and the city of Bern is the seat of the federal authorities.The country is situated in Western-Central Europe,[note 4] and is bordered by Italy to the south, France to the west, Germany to the north, and Austria and Liechtenstein to the east. Switzerland is a landlocked country geographically divided between the Alps, the Swiss Plateau and the Jura, spanning a total area of 15,940 sq mi and land area 15,443 sq mi. While the Alps occupy the greater part of the territory, the Swiss population of approximately eight million people is concentrated mostly on the plateau, where the largest cities are to be found: among them are the two global cities and economic centres Zurich and Geneva.</p>
                 <figure>
-                <img src="https://www.planwallpaper.com/static/images/55350468e1944.jpg" alt="swiss"/> 
+                <img src="https://www.planwallpaper.com/static/images/55350468e1944.jpg" alt="swiss" width="600px" height="500px"/> 
                 </figure>
                 <a name="greece"></a>
                 <h2>Place to visit in Greece, Europe</h2>
                 <p>Greece historically also known as Hellas, is a country in Southern Europe, with a population of approximately 11 million as of 2016. Athens is the nation's capital and largest city, followed by Thessaloniki.</p>
                 <figure>
-                <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1497905219%2Fsantorini-POINTSGREECE0617.jpg%3Fitok%3Dl6Y_KvqB&amp;w=800&amp;q=85"" alt="greece"/>    
+                <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1497905219%2Fsantorini-POINTSGREECE0617.jpg%3Fitok%3Dl6Y_KvqB&amp;w=800&amp;q=85" alt="greece" width="600px" height="500px"/>    
                 </figure>
             </section>
     </article>        
@@ -57,7 +58,7 @@
         <a href="http://validator.w3.org/check/referer" title="Validateof html&#8217;s site">HTML</a>
         <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS file&#8217;s">CSS</a>
         <a href="https://www.facebook.com" title="Facebook login">Facebook</a>
-    </footer>
+        </footer>
 
 </body>
 </html>
